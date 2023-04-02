@@ -5,26 +5,26 @@
 # 项目展示
 ## 注册登录
 登录
-![img.png](img.png)
+![img.png](img/img.png)
 注册
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 ## 普通用户（user）
 1. 可以调用平台上各种API、查看自己的总调用次数和剩余次数，比如随机获取土味情话、随机返回抖音美女视频。
 2. 可以查看个人信息，并退出登录。
 3. 
 ## 整体界面
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 ### 调用API示例
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 ### 个人信息
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)
 3. 鼠标移动至左下方头像处，可显示退出登录按钮。
 ## 管理员（admin）
 1. 拥有普通用户（user）的所有功能。
 2. 管理API接口（修改、上线、下线），并支持多条件功能。
-![img_6.png](img_6.png)
+![img_6.png](img/img_6.png)
 3. 接口使用分析
-![img_7.png](img_7.png)
+![img_7.png](img/img_7.png)
 
 # 上线项目
 1. 用阿里云服务器
