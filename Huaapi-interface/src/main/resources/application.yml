@@ -1,0 +1,17 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+#huaapi:
+#  client:
+#    access-key: deng
+#    secret-key: abcdefgh
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://服务器ip/interface_api
+    username: xxxxx
+    password: xxxxx
+#    url: jdbc:mysql://localhost/interface_api
+#    username: root
+#    password: 123456

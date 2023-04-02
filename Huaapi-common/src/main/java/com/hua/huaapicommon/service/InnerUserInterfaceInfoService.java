@@ -1,0 +1,25 @@
+package com.hua.huaapicommon.service;
+
+/**
+* @author MA_dou
+* @description 针对表【user_interface_info(用户调用接口关系)】的数据库操作Service
+* @createDate 2023-03-13 20:40:10
+*/
+public interface InnerUserInterfaceInfoService {
+
+    /**
+     * 调用接口后增加数据库中的调用次数
+     * @param interfaceInfoId
+     * @param userId
+     * @return
+     */
+    boolean invokeCount(long interfaceInfoId, long userId);
+
+    /**
+     * 调用接口剩余次数，小于等于0次就返回false，大于0返回true
+     * @param interfaceInfoId
+     * @param userId
+     * @return
+     */
+    boolean invokeLeftNum(long interfaceInfoId, long userId);
+}

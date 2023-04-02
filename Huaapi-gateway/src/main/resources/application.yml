@@ -1,0 +1,26 @@
+server:
+  port: 8090
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: api_route
+#          uri: http://服务器ip:8123
+#          uri: http://localhost:8123
+          predicates:
+            - Path=/api/**
+      default-filters:
+        - AddResponseHeader=source,hua
+dubbo:
+  application:
+    name: dubbo-springboot-huaapi-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://服务器内网ip:8848
+#    address: nacos://localhost:8848
+
+
+
